@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Cosmic Paint</title>
+        <meta name="description" content="Page-specific description">
+        <meta name="keywords" content="Page-specific keywords">
+        <link rel="shortcut icon" href="favicon.ico">             <link rel="shortcut icon" href="./static/images/favicons/favicon.png" type="image/x-icon">
+        <link rel="apple-touch-icon" href="./static/images/favicons/apple-touch-icon.png">           <link rel="apple-touch-icon-precomposed" href="./static/images/favicons/apple-touch-icon-precomposed.png">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+        <link rel="stylesheet" href="static/css/screen.min.css">
+        <link rel="stylesheet" href="static/css/custom.min.css">
+        <link rel="stylesheet" href="static/css/screen.style.css">
+        <!--<link rel="stylesheet" href="static/css/screen.normalize.css">-->
+    </head>
+    <body>
+        <!-- $Page header-->
+        <header class="page-header js-header">
+            <div class="container">
+                <div class="page-header__logo">
+                    <h1>xReVoLT - iTheme</h1>&nbsp;<span>Cosmic Paint</span>
+                    <br>
+                    </div>
+                    <!--
+                <nav class="page-header__nav js-nav">
+                    <ul>
+                        <li>
+                            <a class="page-header__nav-link js-anchor js-link is-active" href="#home">Home</a>
+                    </li>
+                        <li>
+                            <a class="page-header__nav-link js-anchor js-link" href="#project">Photographers</a>
+                        </li>
+                        <li>
+                            <a class="page-header__nav-link js-anchor js-link" href="#hobbies">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                -->
+            </div>
+        </header>
+        <!-- $about section -->
+        <section>
+        <div id="container">
+    <div id="c-container">
+        <canvas id="c">Cosmic Paint is unavalible due to the lack of hardware/software.</canvas>
+    </div>
+</div>
+
+<style>
+@import 'https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i';
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 10000vw;
+    height: 10000vh;
+    position: relative;
+    float: none;
+    opacity: 0;
+}
+
+#c-container {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#galaxy {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-image: url(../images/galaxy2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+</style>
+
+        <script>
+        $(window).bind('load', function () {
+    const raf = function (entry) {
+        window.requestAnimationFrame(entry);
+    };
+    const random = function (min, max) {
+        max = max + 1;
+        return Math.floor(Math.random() * (max - min) + min);
+    }
+
+    var container = $('#container'),
+        cContainer = $('#c-container'),
+        c = document.getElementById('c'),
+        cx = c.getContext('2d'),
+        Particle,
+        canvas,
+        particleIndex = 0,
+        particles = {},
+        particleNum = 9,
+        w,
+        h,
+        cx,
+        mouseX,
+        mouseXOld,
+        mouseY,
+        mouseYOld,
+        color1 = 'rgba(4,13,44,1)',
+        color2 = 'rgba(76,36,157,1)',
+        particlesLoaded = false;
+
+    TweenMax.set(container, {
+        opacity: 1
+    });
+
+    c.width = $('#c').outerWidth();
+    c.height = $('#c').outerHeight();
+
+    w = c.width;
+    h = c.height;
+
+    //INITIAL CANVAS DRAW
+    cx.fillStyle = 'rgba(0,0,0,1)';
+    cx.fillRect(0, 0, c.width, c.height);
+
+    Particle = function () {
+        this.w = random(10, 100) * 0.05;
+        this.h = this.w;
+        this.initialR = this.w / 2;
+        this.r = this.w / 2;
+        this.rMult = this.r * 0.2;
+        this.x = (w / 2) - (this.w / 2);
+        this.y = (h / 2) - (this.h / 2);
+        this.vxInitial = 5;
+        this.vyInitial = this.vxInitial;
+        this.vx = this.vxInitial;
+        this.vy = this.vyInitial;
+        this.gravity = 0.95;
+        this.hue = random(0, 3600);
+        this.saturation = 100;
+        this.light = 50;
+        this.lightInc = -0.1;
+        this.clusterLight = 50;
+        this.opacity = 1;
+        this.opacityChange = -0.005;
+        this.opacityEnd = 0;
+        this.opacityReversed = false;
+
+        this.lessThanX = false;
+        this.moreThanX = false;
+        this.lessThanY = false;
+        this.moreThanY = false;
+
+        this.counter = 0;
+        this.counterInc = random(1, 10) * 0.0001;
+        this.counterRate = random(-20, 20);
+
+        this.reachedXDestination = false;
+        this.reachedYDestination = false;
+
+        this.multiplierX = random(-50, 50);
+        this.multiplierY = random(-50, 50);
+
+        this.ran = random(0, 10) * 0.002;
+
+        this.placeInCluster = (random(1, 2) === 1);
+        particles[particleIndex] = this;
+        this.id = particleIndex;
+        particleIndex++;
+    }
+
+    Particle.prototype.draw = function () {
+        if (this.light > this.lightLimit) {
+            this.light += this.lightInc;
+        }
+        this.counter += Math.sin(this.counterInc);
+        this.r += this.rMult;
+        if (this.r > this.w * 5) {
+            this.rMult *= -1;
+        }
+        if (this.r < this.initialR) {
+            this.rMult *= -1;
+        }
+        if (mouseX != null) {
+            this.x += ((mouseX - w / 2) * Math.sin(this.multiplierX)) * Math.sin(this.ran) / 2 * (this.counter * 100);
+            this.y += ((mouseY - h / 2) * Math.sin(this.multiplierY)) * Math.sin(this.ran) / 2 * (this.counter * 100);
+        } else {
+            this.x += ((w * 0.05) * Math.sin(this.multiplierX)) * Math.sin(this.ran) / 2 * (this.counter * 100);
+            this.y += ((h * 0.05) * Math.sin(this.multiplierY)) * Math.sin(this.ran) / 2 * (this.counter * 100);
+        }
+        this.vx *= this.gravity;
+        this.opacity += this.opacityChange;
+        if ((this.opacity < this.opacityEnd)) {
+            delete particles[this.id];
+        }
+        cx.beginPath();
+        cx.fillStyle = `hsla(${this.hue},${this.saturation}%,${this.light}%,${this.opacity})`;
+        cx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
+        cx.fill();
+    }
+
+    function canvasFunction() {
+
+        cx.globalCompositeOperation = 'source-over';
+        cx.fillStyle = 'rgba(0,0,0,0.03)';
+        cx.fillRect(0, 0, w, h);
+        if (!particlesLoaded) {
+            //                particlesLoaded = true;
+            for (var i = 0; i < particleNum; i++) {
+                new Particle();
+            }
+        }
+        //        cx.globalCompositeOperation = 'lighter';
+        for (var i in particles) {
+            particles[i].draw();
+        }
+        raf(canvasFunction);
+    }
+
+    raf(canvasFunction);
+
+    $(window).resize(function initial() {
+
+        c.width = $('#c').outerWidth();
+        c.height = $('#c').outerHeight();
+
+        w = c.width;
+        h = c.height;
+
+        return initial;
+    }());
+
+    function cursorEvents(e) {
+        mouseXOld = mouseX;
+        mouseYOld = mouseY;
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+    }
+
+    window.addEventListener('mousemove', cursorEvents, false);
+});
+        </script>
+<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
+        </section>
+
+
+
+<!-- $Page footer-->
+<footer class="page-footer">
+<div class="container">
+<br>
+<span class="page-footer__copyright">Social Media:</span>
+<br>
+
+<!-- Transparent -->
+    <a href="https://upload.wikimedia.org/wikipedia/commons/c/c4/600_px_Transparent_flag.png">
+        <img align="middle" src="https://upload.wikimedia.org/wikipedia/commons/c/c4/600_px_Transparent_flag.png" alt="Email" height="35" width="35" />
+    </a>
+<!-- Email -->
+    <a href="mailto:?Subject=xReVoLT's Blog&amp;Body=Hello%20xReVoLT,%20I%20have%20visited%20your%20website%20known%20as%20'xReVoLT's%20Blog'%20on%20GitHub%20and%20I%20thought%20I'd%20contact%20you%20to%20tell%20you%20something%20important:%20%0D%0A%0D%0A%0D%0A%0D%0AThank%20You.%20%0D%0A%0D%0ABest%20Regards,%20">
+        <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" height="35" width="35" />
+    </a>
+<!-- Google+ -->
+    <a href="https://plus.google.com/share?url=https://xrevoltitheme.github.io/" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" height="35" width="35" />
+    </a>
+<!-- YouTube -->
+    <a href="https://youtube.com/channel/UCMwSEX0KP5313idi2Mt4qpA" target="_blank">
+        <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-youtube-circle-128.png" alt="YouTube" height="35" width="35" />
+    </a>
+
+<!-- Twitter -->
+    <a href="https://twitter.com/share?url=https://xrevoltitheme.github.io/&amp;text=Visit%20xReVoLT's%20Blog%20to%20see%20all%20of%20his%20work%20with%20programming,%20photography,%20and%20hardware.&amp;hashtags=xrevolt" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" height="35" width="35" />
+    </a>
+
+<!-- GitHub -->
+    <a href="https://github.com/xReVoLT-iTheme" target="_blank">
+        <img src="https://blogs.balsamiq.com/ux/files/2016/07/GitHub-Mark-120px-plus.png" alt="YouTube" height="35" width="35" />
+    </a>
+
+<!-- Minecraft Forum -->
+
+    <a href="http://www.minecraftforum.net/members/xReVoLTiTheme" target="_blank">
+        <img src="https://lh3.googleusercontent.com/_Ofe1l5kLKOZPctG4esWo4XYlbhnIQ5Lt34oRxSbsuQR_9Nr98oMdNM590iy9DSNHRsP=w300" alt="Minecraft Forum" height="37" width="37" />
+    </a>
+
+<!-- Instagram -->
+
+    <a href="https://www.instagram.com/xrevoltitheme/" target="_blank">
+        <img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/instagram_circle_color-128.png" alt="Instagram" height="39" width="39" />
+    </a>
+
+<!-- Snapchat -->
+
+    <iframe src="https://scbutton.com/src/button.html?username=xrevolt&invert=false&large=false" frameborder="1" scrolling="no" height="30" width="100"></iframe>
+    </a>
+<br> 
+
+<span class="page-footer__copyright">&copy; 2016 - 2017 xReVoLT - iTheme | xReVoLT's Blog</span>
+
+</div>
+</footer>
+<script src="static/js/body.min.js"></script>
+</body>
+</html>
