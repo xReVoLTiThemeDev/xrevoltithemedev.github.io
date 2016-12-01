@@ -1067,10 +1067,48 @@ body {
     font-weight:700
 }
 
+.about__title__descr {
+	margin-bottom:35px;
+	font-size:45px;
+	text-transform:capitalize
+}
+
+.about__title__descr span { 
+    font-weight:700
+}
+
+.about__title__descr1 {
+	margin-bottom:35px;
+	font-size:35px;
+	text-transform:capitalize
+}
+
+.about__title__descr1 span { 
+    font-weight:700
+}
+
+.about__title__descr2 {
+	margin-bottom:35px;
+	font-size:30px;
+	text-transform:capitalize
+}
+
+.about__title__descr2 span { 
+    font-weight:700
+}
+
 .about__descr {
-    max-width:580px;
+    max-width:640px;
     margin:0 auto 50px;
     font-size:18px;
+    line-height:1.1;
+    color:#fff
+}
+
+.about__descr1 {
+    max-width:580px;
+    margin:0 auto 50px;
+    font-size:35px;
     line-height:1.1;
     color:#fff
 }
@@ -1155,11 +1193,27 @@ body {
 }
 
 .about2__descr {
-    max-width:1600px;
+    max-width:750px;
     margin:0 auto 50px;
     font-size:18px;
     line-height:1.1;
     color:#fff
+}
+
+.about2__descr span { 
+    font-weight:700
+}
+
+.about3__descr {
+    max-width:800px;
+    margin:0 auto 50px;
+    font-size:18px;
+    line-height:1.1;
+    color:#fff
+}
+
+.about3__descr span { 
+    font-weight:700
 }
 
 .about1__btn {
