@@ -1,0 +1,1717 @@
+/*
+
+********** MADE*BY ************
+*_____________________________*
+*       XREVOLT - ITHEME      *
+*‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾*
+***********8/14/16*************
+
+    ___________________________________ 
+   /               /   \               \
+  /  THE YOUNGER  /     \  GENERATION   \ 
+ /  WILL ALWAYS  /       \      WIN      \ 
+/               /         \               \
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾           ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+
+         __________________________
+         |      PROJECT NAME      |
+         ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+   ______________________________________________
+  /                                              \
+ /                          ________              \
+/  _                    _  | _______    |‾‾‾‾‾‾‾‾\ \
+|  \\                  //  ||           |        | |
+|   \\                //   ||           |        | |
+|    \\      /\      //    ||―――――――    |________/ |
+|     \\    //\\    //     ||―――――――    |‾‾‾‾‾‾‾‾\ |
+|      \\  //  \\  //      ||           |        | |
+|       \\//    \\//       ||_______    |        | |
+|        \/      \/        |________    |________/ |
+|                 _           _                    |
+|                 \\         //                    |
+|                  \\       //                     |
+|                   \\     //                      |
+|                    \\   //                       |
+|                     \\ //                        |
+|                      \\/                         |
+|                      /\\                         |
+|                     // \\                        |
+|                    //   \\                       |
+|                   //     \\                      |
+|                  //       \\                     |
+\                 //         \\                    /
+ \                ‾           ‾                   /
+  \                                              /
+   ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+
+       
+
+――――――――――――――――――――――――――――――
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+――――――――――――――――――――――――――――――
+
+*******************************
+* UPCOMING FEATURES:|
+* ------------------ \
+* Unicode Glitch Tut. \
+* Tabs have pages      \
+* Links go to a section \
+* Website Log Coming Soon\
+* Adding Website Security \
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+
+__________________________________________________
+||| ALL PROJECTS I'VE MADE SHALL BE ADDED SOON |||
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+
+************************************
+* ADDED UI SUPPORT FOR ALL DEVICES *
+************************************
+
+                _______________
+                |\ UI DESIGN /|
+                | \‾‾‾‾‾‾‾‾‾/ |
+                |  \       /  |
+                |   \     /   |
+                |    \   /    |
+                |     \ /     |
+                |      ^      |
+               / MAIN FEATURES \
+              /                 \
+             /   [GULP SYSTEM]   \
+            /                     \
+           /-   ONE PAGE DESIGN    \
+          /-   UNIVERSAL VERSIONS   \
+         /-      CONTACT FORUM       \
+        /-    MULTI TYPYEKIT FONTS    \
+       /-       FOLDER STRUCTURE       \
+      /-      PARALLAX SCROLLING        \
+     /-             WEBKIT               \
+    /                                     \
+   /                                       \
+  /                                         \
+ /___________________________________________\
+/――――――――――――――――AND MUCH MORE――――――――――――――――\
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+
+/* Contact Forum in BETA */
+
+/*
+
+section#contact.contact
+accessKey
+:
+""
+attributes
+:
+NamedNodeMap
+baseURI
+:
+"file:///Users/xReVoLT-iTheme/Desktop/buildwebX/home.html"
+childElementCount
+:
+1
+childNodes
+:
+NodeList[1]
+children
+:
+HTMLCollection[1]
+classList
+:
+DOMTokenList[1]
+className
+:
+"contact"
+clientHeight
+:
+500
+clientLeft
+:
+0
+clientTop
+:
+0
+clientWidth
+:
+808
+contentEditable
+:
+"inherit"
+dataset
+:
+DOMStringMap
+dir
+:
+""
+draggable
+:
+false
+firstChild
+:
+div.container
+firstElementChild
+:
+div.container
+hidden
+:
+false
+id
+:
+"contact"
+innerHTML
+:
+"<div class="container"><h2 class="contact__title">Contact</h2><p class="contact__descr">Contact me and send a email.</p><!-- Email -->↵    <a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com">↵        <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" height="35" width="35">↵    </a>↵    <!-- Google+ -->↵    <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank">↵        <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" height="35" width="35">↵    </a>↵    <!-- Twitter -->↵    <a href="https://twitter.com/share?url=https://simplesharebut`tons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">↵        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" height="35" width="35">↵    </a>↵<!--<form class="contact__form" action="#" method="post"><input class="contact__form-input" id="name" type="text" name="name" placeholder="Your name"><input class="contact__form-input" id="email" type="email" name="email" placeholder="Your email"><textarea class="contact__form-tarea" id="message" name="message" placeholder="Your message"></textarea><input class="contact__form-submit" type="submit" value="Submit"></form><div class="contact__card vcard"><h3 class="contact__card-title">Information</h3><div class="contact__card-item place"><div class="fn org">xReVoLT - iTheme</div><div class="adr"><div class="street-address">&#8226; Programmer</div><span class="locality"></span><span class="region">&#8226; Photographer</span></div></div>--><!--<div class="contact__card-item tel">+444<span class="type">&nbsp;(Phone)&nbsp;</span>123456</div><div class="contact__card-item fax tel">+123<span class="type">&nbsp;(FAX)&nbsp;</span>0011223</div><a class="contact__card-item email" href="#">xrevoltithemedev@gmail.com</a>--></div>"
+innerText
+:
+"Contact↵Contact me and send a email.↵↵     "
+isConnected
+:
+true
+isContentEditable
+:
+false
+jQuery111105866187542653305
+:
+15
+lang
+:
+""
+lastChild
+:
+div.container
+lastElementChild
+:
+div.container
+localName
+:
+"section"
+namespaceURI
+:
+"http://www.w3.org/1999/xhtml"
+nextElementSibling
+:
+footer.page-footer
+nextSibling
+:
+comment
+nodeName
+:
+"SECTION"
+nodeType
+:
+1
+nodeValue
+:
+null
+offsetHeight
+:
+500
+offsetLeft
+:
+0
+offsetParent
+:
+body
+offsetTop
+:
+3307
+offsetWidth
+:
+808
+onabort
+:
+null
+onbeforecopy
+:
+null
+onbeforecut
+:
+null
+onbeforepaste
+:
+null
+onblur
+:
+null
+oncancel
+:
+null
+oncanplay
+:
+null
+oncanplaythrough
+:
+null
+onchange
+:
+null
+onclick
+:
+null
+onclose
+:
+null
+oncontextmenu
+:
+null
+oncopy
+:
+null
+oncuechange
+:
+null
+oncut
+:
+null
+ondblclick
+:
+null
+ondrag
+:
+null
+ondragend
+:
+null
+ondragenter
+:
+null
+ondragleave
+:
+null
+ondragover
+:
+null
+ondragstart
+:
+null
+ondrop
+:
+null
+ondurationchange
+:
+null
+onemptied
+:
+null
+onended
+:
+null
+onerror
+:
+null
+onfocus
+:
+null
+oninput
+:
+null
+oninvalid
+:
+null
+onkeydown
+:
+null
+onkeypress
+:
+null
+onkeyup
+:
+null
+onload
+:
+null
+onloadeddata
+:
+null
+onloadedmetadata
+:
+null
+onloadstart
+:
+null
+onmousedown
+:
+null
+onmouseenter
+:
+null
+onmouseleave
+:
+null
+onmousemove
+:
+null
+onmouseout
+:
+null
+onmouseover
+:
+null
+onmouseup
+:
+null
+onmousewheel
+:
+null
+onpaste
+:
+null
+onpause
+:
+null
+onplay
+:
+null
+onplaying
+:
+null
+onprogress
+:
+null
+onratechange
+:
+null
+onreset
+:
+null
+onresize
+:
+null
+onscroll
+:
+null
+onsearch
+:
+null
+onseeked
+:
+null
+onseeking
+:
+null
+onselect
+:
+null
+onselectstart
+:
+null
+onshow
+:
+null
+onstalled
+:
+null
+onsubmit
+:
+null
+onsuspend
+:
+null
+ontimeupdate
+:
+null
+ontoggle
+:
+null
+onvolumechange
+:
+null
+onwaiting
+:
+null
+onwebkitfullscreenchange
+:
+null
+onwebkitfullscreenerror
+:
+null
+onwheel
+:
+null
+outerHTML
+:
+"<section class="contact" id="contact"><div class="container"><h2 class="contact__title">Contact</h2><p class="contact__descr">Contact me and send a email.</p><!-- Email -->↵    <a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com">↵        <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" height="35" width="35">↵    </a>↵    <!-- Google+ -->↵    <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank">↵        <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" height="35" width="35">↵    </a>↵    <!-- Twitter -->↵    <a href="https://twitter.com/share?url=https://simplesharebut`tons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">↵        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" height="35" width="35">↵    </a>↵<!--<form class="contact__form" action="#" method="post"><input class="contact__form-input" id="name" type="text" name="name" placeholder="Your name"><input class="contact__form-input" id="email" type="email" name="email" placeholder="Your email"><textarea class="contact__form-tarea" id="message" name="message" placeholder="Your message"></textarea><input class="contact__form-submit" type="submit" value="Submit"></form><div class="contact__card vcard"><h3 class="contact__card-title">Information</h3><div class="contact__card-item place"><div class="fn org">xReVoLT - iTheme</div><div class="adr"><div class="street-address">&#8226; Programmer</div><span class="locality"></span><span class="region">&#8226; Photographer</span></div></div>--><!--<div class="contact__card-item tel">+444<span class="type">&nbsp;(Phone)&nbsp;</span>123456</div><div class="contact__card-item fax tel">+123<span class="type">&nbsp;(FAX)&nbsp;</span>0011223</div><a class="contact__card-item email" href="#">xrevoltithemedev@gmail.com</a>--></div></section>"
+outerText
+:
+"Contact↵Contact me and send a email.↵↵     "
+ownerDocument
+:
+document
+parentElement
+:
+body
+parentNode
+:
+body
+prefix
+:
+null
+previousElementSibling
+:
+hr
+previousSibling
+:
+hr
+scrollHeight
+:
+500
+scrollLeft
+:
+0
+scrollTop
+:
+0
+scrollWidth
+:
+808
+shadowRoot
+:
+null
+spellcheck
+:
+true
+style
+:
+CSSStyleDeclaration
+tabIndex
+:
+-1
+tagName
+:
+"SECTION"
+textContent
+:
+"ContactContact me and send a email.↵    ↵        ↵    ↵    ↵    ↵        ↵    ↵    ↵    ↵        ↵    ↵"
+title
+:
+""
+translate
+:
+true
+webkitdropzone
+:
+""
+__proto__
+:
+HTMLElement
+
+*/
+
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,
+abbr,acronym,address,big,cite,code,del,dfn,
+em,img,ins,kbd,q,s,samp,small,strike,strong,
+sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,
+fieldset,form,input,label,legend,table,caption,
+tbody,tfoot,thead,tr,th,td,article,aside,canvas,
+details,embed,figure,figcaption,footer,header,
+hgroup,menu,main,nav,output,ruby,section,summary,
+time,mark,audio,video {
+	margin:0;
+	padding:0;
+	border:0;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box
+}
+
+article,aside,details,figcaption,figure,footer,
+header,hgroup,main,menu,nav,section {
+	display:block
+}
+
+nav ol,nav ul {
+	list-style:none
+}
+
+blockquote,q {
+	quotes:none
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+	content:'';
+	content:none
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0
+}
+
+button,input[type=submit] {
+	cursor:pointer
+}
+
+h1 {
+	font-size:42px;
+	font-weight:lighter
+}
+
+h2 {
+	font-size:26px;
+	font-weight:lighter
+}
+
+h3 {
+	font-size:20px;
+	font-weight:lighter
+}
+
+/* Paragraph Content */
+p {
+	font-size:15px;
+	font-weight:lighter;
+	color:#909090
+}
+
+/* Link Content */
+a {
+	font-size:20px;
+	text-decoration:none
+}
+
+/* Mapping Content */
+html,body {
+	width:100%;
+	height:100%
+}
+
+/* Full Body */
+body {
+	background-color:#e0e0e0;
+	font-family:"Lato",sans-serif;
+	color:#424242
+}
+
+/* Body Page(section) */
+.container {
+	max-width:1024px;
+	margin:0 auto
+}
+
+/* Body PPage(section) - After */
+.container:after {
+	content:'';
+	display:table;
+	clear:both
+}
+
+/* Contact Section contaier */
+.contact {
+	width:100%;
+	min-height:500px;
+	padding:50px 0;
+	background-color:#e0e0e0;
+	text-align:left
+}
+
+/* Contact Title Line */
+.contact__title {
+	font-size:28px;
+	font-weight:400;
+	margin-bottom:10px;
+	text-transform:capitalize;
+	text-align:center
+}
+
+/* Contact Description */
+.contact__descr {
+	font-size:14px;
+	font-weight:400;
+	margin-bottom:55px;
+	text-align:center
+}
+
+/* Contact Forum */
+.contact__form {
+	display:block;
+	float:left;
+	max-width:465px;
+	margin:0 15px 0 40px
+}
+
+.contact__form:after {
+	content:'';
+	display:table;
+	clear:both
+}
+
+.contact__form-input {
+	display:inline-block;
+	width:220px;
+	height:45px;
+	margin-bottom:20px;
+	padding-left:12px;
+	border:2px solid #bec3c7;
+	font-style:italic;
+	color:#999
+}
+
+.contact__form-input:first-of-type {
+	margin-right:20px
+}
+
+.contact__form-tarea {
+	display:block;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	width:465px;
+	height:155px;
+	margin-bottom:25px;
+	padding:20px 0 0 12px;
+	border:2px solid #bec3c7;
+	font-style:italic;
+	color:#999;
+	resize:none
+}
+
+/* Contact Forum - Submit Box */
+.contact__form-submit {
+	display:block;
+	float:right;
+	width:115px;
+	height:35px;
+	text-align:center;
+	background-color:#00AAE5;
+	font-size:15px;
+	color:#fff;
+	text-transform:uppercase;
+	-webkit-transition:all .5s;
+	-o-transition:all .5s;
+	transition:all .5s
+}
+
+/* Contact Forum - Submit Box (hover) */
+.contact__form-submit:hover {
+	background-color:#006A94
+}
+
+/* Contact Forum - Box */
+.contact__card {
+	display:inline-block;
+	width:230px;
+	height:150px
+}
+
+/* Contact Forum - Title */
+.contact__card-title {
+	margin-bottom:20px;
+	font-size:14px;
+	line-height:.5;
+	text-transform:uppercase
+}
+
+/* Contact Forum */
+.contact__card-item {
+	position:relative;
+	font-size:14px;
+	line-height:24px
+}
+
+/* Contact Forum (before) */
+.contact__card-item:before {
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	font-family:FontAwesome
+}
+
+/* Contact Forum - Location Box */
+.contact__card-item.place {
+	padding-left:15px;
+	margin-bottom:15px
+}
+
+/* Contact Forum - Location Box(before) */
+.contact__card-item.place:before {
+	content:"\f041"
+}
+
+/* Contact Forum - Telephone Box */
+.contact__card-item.tel {
+	padding-left:17px;
+	margin-bottom:10px
+}
+
+/* Contact Forum - Telephone Box(before) */
+.contact__card-item.tel:before {
+	content:"\f098"
+}
+
+/* Contact Forum - Fax Box(before) */
+.contact__card-item.fax:before {
+    content:"\f02f"
+}
+
+/* Contact Forum - Email Box */
+.contact__card-item.email {
+	display:inline-block;
+	padding-left:20px;
+	font-size:14px;
+	line-height:24px;
+	color:#444
+}
+
+/* Contact Forum - Email(before) */
+.contact__card-item.email:before {
+	content:"\f003"
+}
+
+/* Contact Forum - Email(hover) */
+.contact__card-item.email:hover {
+	text-decoration:underline
+}
+
+.page-header {
+	width:100%;
+	min-height:95px;
+	background-color:#e0e0e0
+}
+
+.page-header:after {
+	content:'';
+	display:table;
+	clear:both
+}
+
+.page-header.is-fixed {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:999;
+	-webkit-box-shadow:0 2px 4px 0 #424242;
+	box-shadow:0 2px 4px 0 #424242
+}
+
+.page-header__logo {
+	float:left;
+	height:50px;
+	margin:25px 0 0 40px;
+	padding:5px 0 0 65px;
+	background:url(../images/logo.jpg) 0 center no-repeat
+}
+
+.page-header__logo h1 {
+	font-size:20px;
+	font-weight:700;
+	text-transform:uppercase
+}
+
+.page-header__logo span {
+	font-size:14px;
+	text-transform:capitalize
+}
+
+.page-header__logox {
+	float:left;
+	height:50px;
+	margin:25px 0 0 60px;
+	padding:5px 0 0 65px;
+	background:url(../images/logo.jpg) 0 center no-repeat
+}
+
+.page-header__logox h1 {
+	font-size:20px;
+	font-weight:700;
+	text-transform:uppercase
+}
+
+.page-header__logox span {
+	font-size:14px;
+	text-transform:capitalize
+}
+
+.page-header__nav {
+	float:right;
+	margin:30px 55px 0 0;
+	background-color:#e0e0e0
+}
+
+.page-header__nav li {
+	display:inline-block;
+	margin-left:5px
+}
+
+.page-header__nav-link {
+	display:inline-block;
+	font-size:14px;
+	text-transform:uppercase;
+	padding:10px;
+	-webkit-transition:background-color .2s;
+	-o-transition:background-color .2s;
+	transition:background-color .2s;
+	color:#424242
+}
+
+.page-header__nav-link:hover, .page-header__nav-link.is-active {
+	background-color:#00AAE5;
+	color:#fff
+}
+
+.page-header__navx {
+	float:left;
+	margin:30px 55px 0 0;
+	background-color:#e0e0e0
+}
+
+.page-header__navx li {
+	display:inline-block;
+	margin-left:-50px
+}
+
+.page-header__nav-linkx{
+	display:inline-block;
+	font-size:14px;
+	text-transform:uppercase;
+	padding:10px;
+	-webkit-transition:background-color .2s;
+	-o-transition:background-color .2s;
+	transition:background-color .2s;
+	color:#424242
+}
+
+.page-header__nav-linkx:hover, .page-header__nav-linkx.is-active {
+	background-color:#00AAE5;
+	color:#fff
+}
+
+.page-footer {
+	width:100%;
+	min-height:85px;
+	padding-bottom:30px;
+	background-color:#2d3e50
+}
+
+.page-footer__copyright {
+	display:inline-block;
+	margin:35px 0 0 45px;
+	font-size:14px;
+	color:#fff
+}
+
+/* Goto Top of the web page (block, float, width, height, marign, fontsize, align, background color, color, webkit, transitioning) */
+.page-footer__gotop {
+	display:block;
+	float:right;
+	width:45px;
+	height:45px;
+	margin:20px 45px 0 0;
+	font-size:0;
+	text-align:center;
+	overflow:hidden;
+	background-color:#00AAE5;
+	color:transparent;
+	-webkit-transition:all .5s;
+	-o-transition:all .5s;
+	transition:all .5s
+}
+
+/* Goto Top of the web page - Hover (backgroun color)*/
+
+.page-footer__gotop:hover {
+	background-color:#006A94
+}
+
+/* /* Goto Top of the web page - Before animation (font size, font, unicode, color) */
+
+.page-footer__gotop:before {
+	font-size:20px;
+	line-height:45px;
+	font-family:FontAwesome;
+	content:"\25b2";
+	color:#fff
+}
+
+.project {
+    width:100%;
+    min-height:680px;
+    padding-top:50px;
+    background-color:#e0e0e0;
+    text-align:center
+}
+
+.project__title {
+	font-size:28px;
+	font-weight:400;
+	margin-bottom:10px
+}
+
+.project__descr {font
+	-size:14px;
+	font-weight:400;
+	margin-bottom:40px
+}
+
+/* Block Tabs */
+.project__filter li {
+	display:inline-block;
+	margin:0 10px;
+	cursor:pointer
+}
+ 
+/* Block Tabs Button */ 
+.project__filter-btn {
+	display:inline-block;
+	font-size:14px;
+	text-transform:uppercase;
+	padding:10px;
+	color:#fff;
+	background-color:#00AAE5;
+	-webkit-transition:background-color .2s;
+	-o-transition:background-color .2s;
+	transition:background-color .2s
+}
+
+/* Block Tabs Button - Hover */        /* Block Tabs Button - Selected*/
+.project__filter-btn:hover, .project__filter-btn.is-selected {
+	background-color:#006A94
+}
+
+.project__content {
+	margin:45px auto 60px
+}
+
+.project__item {
+	position:relative;
+	display:inline-block;
+	width:180px;
+	height:180px;
+	margin:0 30px 35px;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	overflow:hidden
+}
+
+.project__item.is-hidden {
+	display:none
+}
+
+.project__item-img {
+	display:inline-block;
+	height:100%;
+	margin:0 auto
+}
+
+.project__item-caption {
+	visibility:hidden;
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	padding-top:35px;
+	background-color:#00AAE5;
+	background-color:rgba(27,188,155,.8);
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	color:#fff;
+	opacity:0;
+	-webkit-transition:all .5s;
+	-o-transition:all .5s;
+	transition:all .5s
+}
+
+.project__item:hover
+
+.project__item-caption {
+	opacity:1;
+	visibility:visible
+}
+
+.project__item-title {
+	display:block;
+	font-size:18px;
+	margin-bottom:10px
+}
+
+.project__item-title:before {
+	content:"\f002";
+	display:block;
+	width:40px;
+	height:40px;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	margin:0 auto 20px;
+	padding-top:10px;
+	background-color:#ccc;
+	background-color:rgba(0,0,0,.5);
+	font-family:FontAwesome;
+	text-align:center
+}
+
+.project__item-cat {
+	display:block;
+	font-size:15px
+}
+
+.about {
+	width:100%;
+	min-height:30px;
+	padding:70px 0;
+	background:#323232 url(../images/xbrowser-bg.jpg) center 0 no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	text-align:center;
+	color:#fff
+}
+
+.about__title {
+	margin-bottom:35px;
+	font-size:55px;
+	text-transform:capitalize
+}
+
+.about__title span { 
+    font-weight:700
+}
+
+.about__title__descr {
+	margin-bottom:35px;
+	font-size:45px;
+	text-transform:capitalize
+}
+
+.about__title__descr span { 
+    font-weight:700
+}
+
+.about__title__descr1 {
+	margin-bottom:35px;
+	font-size:35px;
+	text-transform:capitalize
+}
+
+.about__title__descr1 span { 
+    font-weight:700
+}
+
+.about__title__descr2 {
+	margin-bottom:35px;
+	font-size:30px;
+	text-transform:capitalize
+}
+
+.about__title__descr2 span { 
+    font-weight:700
+}
+
+.about__descr {
+    max-width:640px;
+    margin:0 auto 50px;
+    font-size:18px;
+    line-height:1.1;
+    color:#fff
+}
+
+.about__descr1 {
+    max-width:580px;
+    margin:0 auto 50px;
+    font-size:35px;
+    line-height:1.1;
+    color:#fff
+}
+
+.about__descrb {
+    max-width:640px;
+    margin:0 auto 50px;
+    font-size:18px;
+    line-height:1.1;
+    color:#fff
+}
+
+.about__btn {
+	display:block;
+	width:125px;
+	height:35px;
+	margin:0 auto 45px;
+	padding-top:10px;
+	background-color:#00AAE5;
+	font-size:15px;
+	color:#fff;
+	text-transform:uppercase;
+	-webkit-transition:all .5s;
+	-o-transition:all .5s;
+	transition:all .5s
+}
+
+.about__btn:hover {
+	background-color:#006A94
+}
+
+.about__go-next {
+	display:block;
+	width:40px;
+	height:40px;
+	margin:0 auto;
+	background-color:#00aae5;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	font-size:0;
+	color:#323232;
+	-webkit-transition:-webkit-transform .5s;
+	transition:-webkit-transform .5s;
+	-o-transition:transform .5s, -o-transform .5s;
+	transition:transform .5s;
+	transition:transform .5s, -webkit-transform .5s, -o-transform .5s
+}
+
+.about__go-next:before {
+	font-size:30px;
+	line-height:40px;
+	font-family:FontAwesome;
+	content:"\f078"
+}
+
+.about__go-next:hover {
+    -webkit-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+    -o-transform:scale(1.2);
+    transform:scale(1.2)
+}
+
+.about1 {
+	width:100%;
+	min-height:3000px;
+	padding:70px 0;
+	background:#323232 url(../images/about1-bg.jpg) center 0 no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	text-align:center;
+	color:#fff
+}
+
+.about1__title {
+	margin-bottom:35px;
+	font-size:40px;
+	text-transform:capitalize
+}
+
+.about1__title span { 
+    font-weight:700
+}
+
+.about1__descr {
+    max-width:580px;
+    margin:0 auto 50px;
+    font-size:18px;
+    line-height:1.1;
+    color:#fff
+}
+
+.about2__descr {
+    max-width:750px;
+    margin:0 auto 50px;
+    font-size:18px;
+    line-height:1.1;
+    color:#fff
+}
+
+.about2__descr span { 
+    font-weight:700
+}
+
+.about3__descr {
+    max-width:800px;
+    margin:0 auto 50px;
+    font-size:18px;
+    line-height:1.1;
+    color:#fff
+}
+
+.about3__descr span { 
+    font-weight:700
+}
+
+.about1__btn {
+	display:block;
+	width:125px;
+	height:35px;
+	margin:0 auto 45px;
+	padding-top:10px;
+	background-color:#00AAE5;
+	font-size:15px;
+	color:#fff;
+	text-transform:uppercase;
+	-webkit-transition:all .5s;
+	-o-transition:all .5s;
+	transition:all .5s
+}
+
+.about1__btn:hover {
+	background-color:#006A94
+}
+
+.about1__go-next {
+	display:block;
+	width:40px;
+	height:40px;
+	margin:0 auto;
+	background-color:#00aae5;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	font-size:0;
+	color:#323232;
+	-webkit-transition:-webkit-transform .5s;
+	transition:-webkit-transform .5s;
+	-o-transition:transform .5s, -o-transform .5s;
+	transition:transform .5s;
+	transition:transform .5s, -webkit-transform .5s, -o-transform .5s
+}
+
+.about1__go-next:before {
+	font-size:30px;
+	line-height:40px;
+	font-family:FontAwesome;
+	content:"\f078"
+}
+
+.about1__go-next:hover {
+    -webkit-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+    -o-transform:scale(1.2);
+    transform:scale(1.2)
+}
+
+.hobbies {
+	width:100%;
+	min-height:645px;
+	padding-top:55px;
+	background-color:#e0e0e1;
+	text-align:center
+}
+
+.hobbies__title {
+	font-size:28px;
+	font-weight:400;
+	margin-bottom:10px;
+	color:#424242;
+	text-transform:capitalize
+}
+
+.hobbies__descr {
+	font-size:14px;
+	font-weight:400;
+	margin-bottom:45px;
+	color:#909090
+}
+
+.hobbies__hobby {
+	display:inline-block;
+	position:relative;
+	width:220px;
+	margin:0 30px 30px;
+	background-color:#e0e0e1
+}
+
+.hobbies__hobby img {
+	width:100%
+}
+
+.hobbies__hobby-info {
+	display:block;
+	width:100%;
+	height:190px;
+	padding:15px 10px
+}
+
+.hobbies__hobby-name {
+	margin-bottom:5px;
+	font-size:18px
+}
+
+.hobbies__hobby-role {
+	display:block;
+	margin-bottom:20px;
+	font-size:13px;
+	font-style:italic;
+	text-transform:capitalize
+}
+
+.hobbies__hobby-descr {
+	text-align:left;
+	line-height:1.3
+}
+
+.hobbies__hobby-soc {
+	display:block;
+	position:absolute;
+	width:180px;
+	height:50px;
+	top:95px;
+	left:50%;
+	margin-left:-90px;
+	background-color:#00aae5;
+	background-color:rgba(0,170,229);
+	white-space:nowrap;
+	overflow:hidden;
+	opacity:0;
+	visibility:hidden;
+	-webkit-transition:all .5s;
+	-o-transition:all .5s;
+	transition:all .5s
+}
+
+.hobbies__hobby:hover 
+
+.hobbies__hobby-soc {
+	opacity:1;
+	visibility:visible
+}
+
+.hobbies__hobby-soc li {
+	display:inline-block
+}
+
+.hobbies__hobby-icon {
+	display:block;
+	width:45px;
+	height:50px;
+	margin-left:-3px;
+	color:#fff;
+	-webkit-transition:all .3s;
+	-o-transition:all .3s;
+	transition:all .3s;
+	font-size:0
+}
+
+.hobbies__hobby-icon:hover {
+	color:#c1c1c1
+}
+
+.hobbies__hobby-icon:before {
+	display:block;
+	font-family:FontAwesome;
+	font-size:30px;
+	line-height:50px
+}
+
+.hobbies__hobby-icon.fb:before {
+	content:"\f09a"
+}
+
+.hobbies__hobby-icon.programming:before {
+	content:"\009f"
+}
+
+.hobbies__hobby-icon.gplus:before {
+	content:"\f0d5"
+}
+
+.hobbies__hobby-icon.photopage:before {
+	content:"\1f4f7"
+}
+
+.hobbies_memvber-icon.hardwarepage:before{
+	content:"\1f4f7;"
+}
+
+.xbrowser {
+	width:100%;
+	min-height:455px;
+	padding:70px 0;
+	background:#323232 url(../images/xbrowser-bg.jpg) center 0 no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	text-align:center;
+	color:#fff
+}
+
+.xbrowser__title {
+	margin-bottom:35px;
+	font-size:55px;
+	text-transform:capitalize
+}
+
+.xbrowser__title span { 
+    font-weight:700
+}
+
+.xbrowser__descr {
+    max-width:580px;
+    margin:0 auto 50px;
+    font-size:30px;
+    line-height:1.1;
+    color:#fff
+}
+
+.xbrowser__btn {
+	display:block;
+	width:125px;
+	height:35px;
+	margin:0 auto 45px;
+	padding-top:10px;
+	background-color:#00AAE5;
+	font-size:15px;
+	color:#fff;
+	text-transform:uppercase;
+	-webkit-transition:all .5s;
+	-o-transition:all .5s;
+	transition:all .5s
+}
+
+.xbrowser__btn:hover {
+	background-color:#006A94
+}
+
+.xbrowser__go-next {
+	display:block;
+	width:40px;
+	height:40px;
+	margin:0 auto;
+	background-color:#00aae5;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	font-size:0;
+	color:#323232;
+	-webkit-transition:-webkit-transform .5s;
+	transition:-webkit-transform .5s;
+	-o-transition:transform .5s, -o-transform .5s;
+	transition:transform .5s;
+	transition:transform .5s, -webkit-transform .5s, -o-transform .5s
+}
+
+.xbrowser__go-next:before {
+	font-size:30px;
+	line-height:40px;
+	font-family:FontAwesome;
+	content:"\f078"
+}
+
+.xbrowser__go-next:hover {
+    -webkit-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+    -o-transform:scale(1.2);
+    transform:scale(1.2)
+}
+
+.aboutx__go-next {
+	display:block;
+	width:40px;
+	height:40px;
+	margin:0 auto;
+	background-color:#00aae5;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	font-size:0;
+	color:#323232;
+	-webkit-transition:-webkit-transform .5s;
+	transition:-webkit-transform .5s;
+	-o-transition:transform .5s, -o-transform .5s;
+	transition:transform .5s;
+	transition:transform .5s, -webkit-transform .5s, -o-transform .5s
+}
+
+.aboutx__go-next:before {
+	font-size:30px;
+	line-height:40px;
+	font-family:FontAwesome;
+}
+
+.aboutx__go-next:hover {
+    -webkit-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+    -o-transform:scale(1.2);
+    transform:scale(1.2)
+}
+
+/* 1000 px (13.33 inches) START */
+
+@media screen and (max-width:1000px) {
+	.project__item {
+		width:170px;
+		height:170px;
+		margin:0 1.5% 35px
+	}
+
+	.hobbies__hobby {
+		width:190px;
+		margin:0 20px 30px
+	}
+}
+
+/* 1000 px (13.33 inches) END */
+
+/* -200 px */
+
+/* 800 px (10.67 inches) START */
+
+@media screen and (max-width:800px) {
+	.contact__form {
+		max-width:50%;
+		margin:0 2% 0 8%
+	}
+
+	.contact__form-input {
+		width:100%
+	}
+
+	.contact__form-tarea {
+		width:100%
+	}
+
+	.contact__card {
+		width:40%
+	}
+
+	.page-header__logo {
+		float: right;
+		margin:25px 0 0 10px
+	}
+
+	.page-header__logox {
+		margin:25px 0 0 100px
+	}
+
+	.page-header__nav {
+		margin:30px 10px 0 0
+	}
+
+	.project__item {
+		width:190px;
+		height:190px;
+		margin:0 5% 35px
+	}
+
+	.hobbies__hobby {
+		width:180px;
+		margin:0 10px 30px
+	}
+}
+
+/* 800 px (10.67 inches) END */
+
+/* -160 px */
+
+/* 640 px (8.53 inches) START */
+
+@media screen and (max-width:640px) {
+	.contact {
+		padding:50px 10px
+	}
+
+	.contact__form {
+		float:none;
+		max-width:90%;
+		margin:0 auto 50px
+	}
+
+	.contact__card {
+		display:block;
+		width:230px;
+		margin:20px auto
+	}
+
+	.contact__card-title {
+		text-align:center
+	}
+
+	.page-header__logo h1 {
+		display:none
+	}
+
+	.page-header__logo span {
+		display:none
+	}
+
+	.page-header__nav li {
+		margin-left:0
+	}
+
+	.project {
+		padding:50px 10px
+	}
+    
+    /* Block Tabs */
+	.project__filter li {
+		margin:0 5px
+	}
+
+	.hobbies {
+		padding:55px 10px
+	}
+
+	.hobbies__hobby {
+		display:block;
+		width:260px;
+		margin:0 auto 30px
+	}
+
+	.hobbies__hobby-info {
+		height:auto
+	}
+
+	.hobbies__hobby-descr {
+		display:none
+	}
+
+	.hobbies__hobby-soc {
+		width:260px;
+		top:220px;
+		margin-left:-130px
+	}
+}
+
+/* 640 px (8.53 inches) END */
+
+/* -160 px */
+
+/* 480 px (6.4 inches) START */
+
+@media screen and (max-width:480px) {
+	
+	/* Display th form */
+	.contact__form-submit {
+		float:none;
+		margin:0 auto
+	}
+    
+    /* Page Header Size */
+	.page-header {
+		min-height:50px
+	}
+    
+    /* Display the Page Header Logo */
+	.page-header__logo {
+		display:none
+	}
+    
+    /* Display the Page Header Navigation */
+	.page-header__nav {
+		float:none;
+		margin:10px auto;
+		text-align:center
+	}
+    
+    /* Display navigation - (margin) */
+	.page-header__nav li {
+		margin-left:0
+	}
+    
+    /* Display footer - (size, alignment) */
+	.page-footer {
+		padding:0 10px 30px;
+		text-align:center
+	}
+    
+    /* Display copyright details - (margin) */
+	.page-footer__copyright {
+		margin:35px auto 0
+	}
+
+    /* Goto Top of the web page - (float, width, margin) */
+	.page-footer__gotop {
+		float:none;
+		width:100%;
+		margin:20px auto 0
+	}
+
+    /* Block Tabs */
+	
+	.project__filter li {
+		display:block
+	}
+}
+
+/* 480 px (6.4 inches) ENG */
