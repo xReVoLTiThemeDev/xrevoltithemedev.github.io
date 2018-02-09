@@ -30,7 +30,7 @@ ul
     margin: auto;
     font-weight: 900;
     text-align: center;
-    padding: 0 0 200px;
+    padding: 0 0 0px;
 }
 
 /*.take-input {
@@ -57,7 +57,7 @@ a, a:link, a:visited {
 .animate {
     font-size: 72px;
     width: 100%;
-    margin-top: 300px;
+    margin-top: 200px;
 }
 
 .animate span {
